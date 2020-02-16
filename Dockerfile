@@ -21,4 +21,3 @@ RUN apt-get -y install build-essential automake git zlib1g-dev libssl-dev librea
  && gem install bundler
 
 CMD "/bin/bash"
-wget --no-check-certificate https://cache.ruby-lang.org/pub/ruby/2.5.3/ruby-2.5.3.tar.gz
